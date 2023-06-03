@@ -1,0 +1,183 @@
+@media screen and (max-width: 767px) { 
+
+    .header__return {
+        top: 4%;
+        left: 10%;
+    }
+
+    .menu__image {
+        width: 100%;
+        height: 200px;
+    }
+
+    .menu__title {
+        margin: 15px 0 0 18px;
+    }
+/*-- HEART--*/
+
+    .menu__title-icon {
+        top: 2%;
+        left: 89%;
+    }
+
+/*-- CARDS--*/
+
+    .menu__choices-title {
+        margin: 30px 0 20px 18px;
+    }
+
+    .menu__card {
+        width: 90%;
+        margin-left: 18px;
+    }
+
+    .menu__price{
+        padding: 0 8px 8px 50px;
+    }
+    .menu__text {
+        width: 75%;
+    }
+
+    .menu__card:hover {
+        .menu__text {
+            width: 52%;
+        }
+    } 
+
+    .menu__description {
+        font-size: 14px;
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width: 992px) and (min-width: 767px) {
+
+    .header__return {
+        top: 3%;
+        left: 5%;
+    }
+
+    .menu__image {
+        height: 200px;
+    }
+    
+    .menu__title {
+        margin: 15px 0 0 40px;
+    }
+
+/*-- HEART--*/
+
+    .menu__title-icon {
+        top: 2.2%;
+        left: 92.5%;
+    }
+
+/*-- CARDS--*/
+
+    .menu__choices-title {
+        margin: 30px 0 20px 40px;
+    }
+
+    .menu__card {
+        width: 90%;
+        margin-left: 40px;
+    }
+    .menu__text {
+        width: 88%;
+    }
+    .menu__price {
+        padding: 0 8px 8px 50px;
+    }
+
+    .menu__description {
+        font-size: 14px;
+    }
+
+    .menu__card:hover {
+        .menu__text {
+            width: 70%;
+        }
+    }
+
+}
+
+
+
+
+
+@media screen and (min-width: 993px) {
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    .header__return {
+        top: 4.5%;
+        left: 2%;
+    }
+
+    .menu__image {
+        height: 200px;
+    }
+
+    .menu__title {
+        margin: 15px 0 0 35px;
+    }
+
+/*-- HEART--*/
+
+    .menu__title-icon {
+        top: 6.5%;
+        left: 97.2%;
+    }
+
+/*-- CARDS--*/
+
+.menu__choices {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .menu__entrees,
+    .menu__main-dish,
+    .menu__dessert {
+        width: 100%;
+    }
+
+    .menu__choices-title {
+        width: 85%;
+        margin: 30px 0 20px 35px;
+    }
+
+    .menu__card {
+        width: 90%;
+        margin-left: 35px;
+    }
+    .menu__text {
+        width: 82%;
+    } 
+
+    .menu__price {
+        padding: 5px 8px 8px 50px;
+    }
+
+    .menu__card:hover {
+        .menu__text {
+            width: 55%;
+        }
+    } 
+
+    .menu__description {
+        font-size: 14px;
+    }
+
+
+
+
+}

@@ -1,0 +1,288 @@
+@media screen and (max-width: 767px) { 
+
+    .header__logo {
+        height: 55px;
+        width: 50%;
+    }
+
+/*-- BOOKING--*/
+
+    .booking {
+        &__wrapper {
+            flex-direction: column;
+        }
+        &__info {
+            margin-left: 30px;
+        }
+    }
+
+/*-- EXPLANATION--*/
+
+    .explanation {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    
+        &__wrap {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__num { 
+            left: -12px;
+        }
+
+        &__button {
+            width: 80%;
+            margin: 0 0 15px 25px;
+        }
+    }
+
+/*-- RESTAURANT CARD--*/
+
+    .restaurant {
+        &__wrap {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__title {
+            margin-left: 35px;
+        }
+
+        &__card {
+            margin-left: 35px;
+            width: 300px;
+        }
+
+        &__card-img-1,
+        &__card-img-2,
+        &__card-img-3,
+        &__card-img-4 {
+            height: 150px;
+        }
+
+        &__card-img-1 {
+            object-position: left bottom;
+        }
+
+        &__card-img-2 {
+            object-position: 0px -137px;
+        }
+
+        &__card-img-3 {
+            object-position: 0px -50px;
+        }
+
+        &__card-img-4 {
+            object-position: 0px -50px;
+        }
+        /*-- HEART--*/
+
+        &__card-icon {
+            right: 13.5%;
+            top: 76.8%;
+        } 
+    }
+}
+
+
+@media screen and (max-width: 992px) and (min-width: 767px) {
+    
+    .header__logo {
+        height: 75px;
+        width: 40%;
+    }
+
+/*-- BOOKING--*/
+
+    .booking {
+        &__wrapper {
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+
+        &__info {
+            margin-left: 35px;
+        }
+
+        .btn-gradient {
+            margin-right: 150px;
+        }
+    }    
+
+/*-- EXPLANATION--*/
+
+    .explanation {
+        &__wrap {
+            margin-left: 18px;
+            flex-direction: column;
+        }
+
+        &__num {
+            left: -11px;
+        }
+
+        &__button {
+            width: 90%;
+            margin: 0 15px 20px 18px;
+        }
+    }
+
+/*-- RESTAURANT CARD--*/
+
+    .restaurant {
+        &__wrap {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__title {
+            margin-left: 30px;
+        }
+
+
+        &__card {
+            margin-left: 10%;
+            width: 80%;
+        }
+        &__card-img-1,
+        &__card-img-2,
+        &__card-img-3,
+        &__card-img-4 {
+            height: 200px;
+        }
+
+        &__card-img-1 {
+            object-position: 0px -150px;
+        }
+
+        &__card-img-2 {
+            object-position: 0px -330px;
+        }
+
+        &__card-img-3 {
+            object-position: 0px -175px;
+        }
+
+        &__card-img-4 {
+            object-position: 0px -175px;
+        }
+
+/*-- HEART--*/
+
+        &__card-icon {
+            top: 80%;
+            right: 8%;
+                   
+        }
+    }
+}
+
+@media screen and (min-width: 993px) {
+
+    .header__logo {
+        height: 100px;
+        width: 28%;
+    }
+
+/*-- BOOKING--*/
+
+    .booking {
+        &__wrapper {
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+
+        &__info {
+            margin-left: 40px;
+        }
+
+        .btn-gradient {
+            margin: 30px 80px 25px 0;
+        }
+    }
+/*-- EXPLANATION--*/
+
+    .explanation {
+        &__wrap {
+        flex-direction: row;
+        margin-left: 30px;
+        }
+
+        &__num { 
+            margin-left: 55px;
+            left: -63px;
+        }
+
+        &__button {
+            width: 29%;
+            padding: 20px;
+            border-radius: 25px;
+            margin-left: 25px;
+        }
+
+        &__icon {
+            font-size: 18px;
+        }
+    }
+
+/*-- RESTAURANT CARD--*/
+
+    .restaurant {
+        &__container {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            margin-left: 20px;
+        }
+
+        &__title {
+            margin-left: 30px;
+        }
+
+        &__card {
+            margin-left: 30px;
+            margin-bottom: 20px;
+            width: 45%;
+        }
+
+        &__card-img-1,
+        &__card-img-2,
+        &__card-img-3,
+        &__card-img-4 {
+            height: 150px;
+        }
+
+        &__card-img-1 {
+            object-position: 0px -165px;
+        }
+
+        &__card-img-3 {
+            object-position: 0px -175px;
+        }
+
+        &__card-img-4 {
+            object-position: 0px -175px;
+        }
+
+/*-- HEART--*/
+
+        &__card-icon {
+            top: 76.8%;
+            right: 9.5%;
+        }
+
+    }
+
+
+
+
+
+
+}
+
+
+

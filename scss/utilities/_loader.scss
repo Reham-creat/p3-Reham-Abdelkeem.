@@ -1,0 +1,195 @@
+.loader {
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    position: fixed;
+    z-index: 20;
+    animation: disappear .5s 3s ease-in forwards;
+    
+    .loader i {
+        width: 70vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .fa-wine-glass {
+        font-size: 5rem;
+        animation: foodmvt 2s ease-in;
+        color: #9356DC;  
+    }
+    
+    .fa-hamburger{
+        font-size: 5rem;
+        animation: foodmvt 2s 150ms ease-in;
+        color: #FF79DA;
+    }
+          
+    .fa-utensils {
+        font-size: 5rem;
+        animation: foodmvt 2s 200ms ease-in;
+        color: #99E2D0;
+    }
+    
+    .fa-carrot {
+        font-size: 5rem;
+        animation: foodmvt 2s 250ms ease-in;
+        color: #FF79DA;
+    }
+    .fa-glass-cheers {
+        font-size: 5rem;
+        animation: foodmvt 2s 300ms ease-in;
+        color: #9356DC;  
+    }
+
+
+    @keyframes foodmvt {
+           
+        5% {
+            transform: translateX(-300%);
+        }
+             
+        20% {
+            opacity: 1;
+            transform: scale(0);
+            transform: translateX(100%);
+        }
+             
+        25% {
+            transform: translateX(-5%);
+            transform: scale(0.8, 1.2);
+        }
+             
+        30% {
+            transform: translateX(0%);
+        }
+                
+        60% {
+            transform: translateY(40%);
+        }
+             
+        100% {
+            transform: translateY(0%);
+        }
+           
+    }
+
+    @keyframes disappear {
+        0% {
+          opacity: 1;
+          z-index: 20;
+        }
+        
+        95% {
+          opacity: 0.9;
+          z-index: -1;
+        }
+        
+        100% {
+          z-index: -20;
+          opacity: 0;
+        }
+      }
+}
+
+@media screen and (max-width: 767px) {
+    .loader {
+        background-color: white;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        position: fixed;
+        z-index: 20;
+        animation: disappear .5s 3s ease-in forwards;
+        
+        .loader i {
+            width: 35vw;
+            display: flex;
+            justify-content: space-between;
+        }
+    
+        .fa-wine-glass {
+            font-size: 3.5rem;
+            animation: foodmvt 3s ease-in;
+            color: #9356DC;  
+        }
+        
+        .fa-hamburger{
+            font-size: 3.5rem;
+            animation: foodmvt 3s 150ms ease-in;
+            color: #FF79DA;
+        }
+              
+        .fa-utensils {
+            font-size: 3.5rem;
+            animation: foodmvt 3s 200ms ease-in;
+            color: #99E2D0;
+        }
+        
+        .fa-carrot {
+            font-size: 3.5rem;
+            animation: foodmvt 3s 250ms ease-in;
+            color: #FF79DA;
+        }
+        .fa-glass-cheers {
+            font-size: 3.5rem;
+            animation: foodmvt 3s 300ms ease-in;
+            color: #9356DC;  
+        }
+    
+    
+        @keyframes foodmvt {
+               
+            5% {
+                transform: translateX(-300%);
+            }
+                 
+            20% {
+                opacity: 1;
+                transform: scale(0);
+                transform: translateX(100%);
+            }
+                 
+            25% {
+                transform: translateX(-5%);
+                transform: scale(0.8, 1.2);
+            }
+                 
+            30% {
+                transform: translateX(0%);
+            }
+                    
+            60% {
+                transform: translateY(40%);
+            }
+                 
+            100% {
+                transform: translateY(0%);
+            }
+               
+        }
+    
+        @keyframes disappear {
+            0% {
+              opacity: 1;
+              z-index: 20;
+            }
+            
+            95% {
+              opacity: 0.9;
+              z-index: -1;
+            }
+            
+            100% {
+              z-index: -20;
+              opacity: 0;
+            }
+          }
+    }
+}

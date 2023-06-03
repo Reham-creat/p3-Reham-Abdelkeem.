@@ -1,0 +1,35 @@
+
+@keyframes clockwise {
+    0% {
+        transform:  rotate(0.0turn);
+    }
+    
+    100% {
+        transform:  rotate(2.0turn);
+    }
+}
+  
+@keyframes counter-clock {
+    0% {
+        transform:  rotate(0.0turn);
+    }
+    
+    100% {
+        transform:  rotate(-2.0turn);
+    }
+}
+
+
+
+
+@keyframes appear {
+    0% {
+        transform: translateY(50%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

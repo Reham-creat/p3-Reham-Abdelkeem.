@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c0b823850e.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Shrikhand&display=swap" rel="stylesheet"/>
+    <title>Oh my food!</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+<div class="loader">
+    <i class="fas fa-wine-glass"></i>
+    <i class="fas fa-hamburger"></i>
+    <i class="fas fa-utensils"></i>
+    <i class="fas fa-carrot"></i>
+    <i class="fas fa-glass-cheers"></i>
+</div>
+    <header>
+        <section class="header__title">
+            <img src="images/logo/ohmyfood.png" alt="logo" class="header__logo"/>
+        </section>
+
+       
+
+        <div class="location">
+            <div class="location__wrapper">
+                <i class="fas fa-map-marker-alt"></i>
+                <input type="text" placeholder="Paris, Belleville" class="location__search"/>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+
+        
+
+        <section class="booking">
+            <div class="booking__wrapper">
+                <div class="booking__wrapper-text">
+                    <h2 class="booking__title">Book the menu you like</h2>
+                    <p class="booking__info">Discover top-of-the-art restaurants we picked for you</p>
+            </div>
+                <button type="button" class="btn-gradient">Explore our restaurants</button>
+            </div>
+        </section>
+        
+
+        <section class="explanation">
+            <h2 class="explanation__title">How it works</h2>
+
+            <div class="explanation__wrap">
+
+                <button class="explanation__button" type="button">
+                    <span class="explanation__num">1</span>
+                    <i class="fas fa-mobile-alt explanation__icon"></i>
+                    <span>Choose a restaurant</span>
+                </button>
+                <button class="explanation__button" type="button">
+                    <span class="explanation__num">2</span>
+                    <i class="fas fa-list explanation__icon"></i>
+                    <span>Create your menu</span>
+                </button>
+                <button class="explanation__button" type="button">
+                    <span class="explanation__num">3</span>
+                    <i class="fas fa-store explanation__icon"></i>
+                    <span>Go enjoy it at the restaurant</span>
+                </button>
+            </div>
+        </section>
+        
+        
+
+        <section class="restaurant">
+            <div class="restaurant__wrap">
+                <h2 class="restaurant__title">Restaurants</h2>
+
+                <div class="restaurant__container">
+                    <div class="restaurant__card">
+                        <a href="./menu-palette.html"><img src="images/restaurants/the-full-palette.jpg" class="restaurant__card-img-1" id="palette" alt="The Full Palette"/></a>
+                        <section class="restaurant__card-label">New</section>
+                        <div class="restaurant__card-info">
+                            <h2>The Full Palette</h2>
+                            <h4>New York</h4>
+                        </div>
+
+                        <div class="restaurant__card-icon">
+                            <i class="far fa-heart outline"></i>
+                            <i class="fas fa-heart solid"></i>
+                        </div>
+                    </div>
+
+            
+                    <div class="restaurant__card">
+                        <a href="./menu-enchanted.html"><img src="images/restaurants/the-enchanted-plate.jpg" class="restaurant__card-img-2" alt="The Enchanted Plate"/></a>
+                        <section class="restaurant__card-label">New</section>
+                        <div class="restaurant__card-info">
+                            <h2>The Enchanted Plate</h2>
+                            <h4>New York</h4>
+                        </div>
+                        <div class="restaurant__card-icon">
+                            <i class="far fa-heart outline"></i>
+                            <i class="fas fa-heart solid"></i>
+                        </div>
+                    </div>
+
+                    <div class="restaurant__card">
+                        <a href="./menu-bastille.html"><img src="images/restaurants/bastille.jpg" class="restaurant__card-img-3" alt="Bastille"/></a>
+                        <div class="restaurant__card-info">
+                            <h2>Bastille</h2>
+                            <h4>New York</h4>
+                        </div>
+                        <div class="restaurant__card-icon">
+                            <i class="far fa-heart outline"></i>
+                            <i class="fas fa-heart solid"></i>
+                        </div>
+                    </div>
+               
+                    <div class="restaurant__card">
+                        <a href="./menu-gourmand.html"><img src="images/restaurants/le-gourmand.jpg" class="restaurant__card-img-4" alt="Le Gourmand"/></a>
+                        <div class="restaurant__card-info">
+                            <h2>Le Gourmand</h2>
+                            <h4>New York</h4>
+                        </div>
+                        <div class="restaurant__card-icon">
+                            <i class="far fa-heart outline"></i>
+                            <i class="fas fa-heart solid"></i>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    
+
+    <footer class="footer">
+        <div class="container__footer">
+            <h2 class="footer__title">ohmyfood</h2>
+        </div>
+        <ul class="footer__nav">
+            <li class="footer__nav-item"><a href="#"><i class="fas fa-utensils"></i>Suggest a restaurant</a></li>
+            <li class="footer__nav-item"><a href="#"><i class="fas fa-hands-helping"></i>Become a partner</a></li>
+            <li class="footer__nav-item"><a href="#">Legal</a></li>
+            <li class="footer__nav-item" id="footer__nav-item-4"><a href="mailto:nowhere@mozilla.org">Contact</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

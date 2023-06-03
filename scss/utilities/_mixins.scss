@@ -1,0 +1,19 @@
+@mixin center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin btn-gradient {
+    cursor: pointer;
+    border-radius: 25px;
+    padding: 13px 20px;
+    margin: 10px 0 40px 0;
+    font-size: 14px;
+    color: white;
+    border: none;
+    box-shadow: 5px 5px 5px gray;
+    background: linear-gradient(to bottom right, $secondary-clr, $primary-clr);   
+}
+
+
